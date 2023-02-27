@@ -1,0 +1,36 @@
+.container {
+    text-align: center;
+    max-width: 90%;
+    min-width: 300px;
+    margin: 10px auto;
+    background-color: black;
+}
+
+.link-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+}
+
+.block {
+    border-radius: 50px;
+    background-color: aquamarine;
+    &-sq{
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+    }
+
+    &-lng{
+        width: 300px;
+        height: 450px;
+        margin: 10px;
+    }
+
+    &-items {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
